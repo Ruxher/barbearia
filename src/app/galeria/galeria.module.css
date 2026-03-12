@@ -1,0 +1,18 @@
+.galery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 1em;
+    justify-content: center;
+}
+
+.galery img {
+    width: calc(33% - 1rem);
+    padding: 1em 0;
+}
+
+@media (max-width: 728px) {
+    .galery img {
+        width: 90%;
+        padding: 1em 0;
+    }
+}
